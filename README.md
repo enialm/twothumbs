@@ -8,7 +8,7 @@ Two Thumbs is a user feedback system featuring
 - no SDKs, and
 - no distractions.
 
-It provides an API to post feedback to, AI-powered digests (delivered to Slack), and not much more, by design.
+It provides an API to post feedback to, AI-powered digests (delivered to Slack), and not much more, by design. Two Thumbs was originally a commercial product. The entire codebase is now open source.
 
 ## API Call Example
 
