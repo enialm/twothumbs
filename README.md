@@ -10,4 +10,23 @@ Two Thumbs is a user feedback system featuring
 
 It provides an API to post feedback to, AI-powered digests (delivered to Slack), and not much more, by design.
 
-Since Two Thumbs is rather niche, I will be happy to personally assist you in getting started. Please reach out via contact@messier.ch.
+## API Call Example
+
+```bash
+curl -X POST 'https://your-instance.com/feedback' \
+    -H 'Content-Type: application/json' \
+    -H 'X-API-Key: $secret' \
+    -d '{
+          "prompt": "Kool?",
+          "thumb_up": true,
+          "comment": "& the Gang 🪩",
+          "origin": "Two Thumbs",
+          "category": "Landing Page",
+          "in_production": true,
+          "user_id": $uid
+        }'
+```
+
+## Getting Started
+
+Since Two Thumbs is rather niche, and requires initial configuration (you must, e.g., create a Slack App), I will be happy to personally assist you in getting started. Please reach out via contact@messier.ch.

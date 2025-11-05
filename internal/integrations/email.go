@@ -38,13 +38,14 @@ func randomString(n int) string {
 }
 
 func SendEmail(e *models.EmailSender, to, replyTo, subject, body string) error {
+	domain := e.From[strings.LastIndex(e.From, "@")+1:]
 	headers := []string{
 		"From: " + e.From,
 		"To: " + to,
 		"Reply-To: " + replyTo,
 		"Subject: " + subject,
 		"Date: " + time.Now().UTC().Format(time.RFC1123Z),
-		"Message-ID: <" + randomString(12) + "@twothumbs.io>",
+		"Message-ID: <" + randomString(12) + "@" + domain + ">",
 		"",
 		body,
 	}

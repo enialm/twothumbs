@@ -1,6 +1,6 @@
 // File: internal/db/queries/feedback.go
 
-// This file shall contain queries related to feedback analysis.
+// This file contains queries related to feedback analysis.
 
 package queries
 

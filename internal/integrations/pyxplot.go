@@ -1,6 +1,6 @@
 // File: internal/integrations/pyxplot.go
 
-// This file shall contain code to execute Pyxplot commands.
+// This file contains code to execute Pyxplot commands.
 
 package integrations
 

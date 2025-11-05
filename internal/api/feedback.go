@@ -1,6 +1,6 @@
 // File: internal/api/feedback.go
 
-// This file shall include the endpoint to push feedback to the database.
+// This file includes the endpoint to push feedback to the database.
 
 package api
 
